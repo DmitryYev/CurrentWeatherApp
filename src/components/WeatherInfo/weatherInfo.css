@@ -1,0 +1,42 @@
+.weather-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  min-width: 200px;
+  min-height: 200px;
+  grid-row-end: span 4;
+  margin: auto;
+  padding: 5%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0  0 10px rgba(0, 0, 0, .2);
+  font-size: 3.5vmin;
+  color: rgb(85, 85, 85);
+  }
+
+  .location {
+    font-weight: bold;
+    margin-bottom: 3vh;
+  }
+
+  .sky-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .temp-image {
+    margin-bottom: -3vh;
+  }
+  
+  .temp-value {
+    padding-left: .5vw;
+  }
+
+
+
+
+ 

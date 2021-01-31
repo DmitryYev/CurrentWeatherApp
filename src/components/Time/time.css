@@ -1,0 +1,24 @@
+.time-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-end: span 5;
+    align-self: center;
+    color: rgb(85, 85, 85);
+    font-size: 4vw;
+    font-weight: bold;
+    text-shadow: .1rem .1rem .5rem rgb(220, 247, 253);
+}
+
+.sm {
+    grid-row-end: span 1;
+    margin-bottom: 3vh;
+    font-size: 3vw;
+} 
+
+
+
+
+
+
+
